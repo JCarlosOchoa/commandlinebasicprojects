@@ -14,8 +14,8 @@ Completed:
 2. Rock-Paper-Scissors
 The goal: play a text-version of rock-paper-scissors with the program.
 
-Inputs: user's choice of rock, paper, or scissors \
-Outputs: a string declaring the results
+  Inputs: user's choice of rock, paper, or scissors \
+  Outputs: a string declaring the results
 
 - The program asks the user to input their choice of rock, paper, or scissors, and the computer randomly chooses from one of the same options.
 - Using a simple function to check if the user won, lost, or tied, the program returns a string declaring the results.
@@ -25,14 +25,14 @@ Outputs: a string declaring the results
   The goal: play a guessing game with the program. \
 
   VERSION 1 \
-  Inputs: the highest number the program can choose \
-  Outputs: a string declaring that the game ended once the number is correctly guessed
+    Inputs: the highest number the program can choose \
+    Outputs: a string declaring that the game ended once the number is correctly guessed
   
   - The program will randomly choose a number between 1 and the input value and the user will iteratively guess that number, receiving hints of "too big" or "too small."
   
     VERSION 2 \
-  Inputs: the highest number the program can guess from \
-  Outputs: a string declaring that the game ended once the number is correctly guessed
+    Inputs: the highest number the program can guess from \
+    Outputs: a string declaring that the game ended once the number is correctly guessed
   
   - The user mentally will randomly choose a number between 1 and the input value and the program will iteratively guess that number, \ 
   receiving hints of "too big" or "too small," inputted by the user through the terminal.
@@ -41,7 +41,7 @@ Outputs: a string declaring the results
   4. Text-Based Hangman
     The goal: guess the letters of a randomly chosen words before you run out of attempts (lives) \
     
-    Inputs: n/a, we want the game to run without inputs \
+    Inputs: n/a, we want the game to run without inputs 
     Outputs: a string telling the user whether or not they have guessed the mystery word correctly
     
  - The program will randomly choose one word from a large list of words and display to the user the number of attempts they have to guess the letters of the mystery word, \
